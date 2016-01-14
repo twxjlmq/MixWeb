@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+body {
+  font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei",SimSun, sans-serif,"Open Sans", Arial, "Hiragino Sans GB", "STHeiti", "WenQuanYi Micro Hei";
+  width: 100%;
+  height: 100%;
+}
+.navbar-nav a {
+	font-weight: 700;
+}
+
+.mix-nav-menu {
+	padding: 0;
+}
+.mix-body {
+	padding-top: 55px;
+	background-color: #f5f5f5;
+}
+
+.mix-nav-menu-title {
+	padding: 10px 0px 10px 22px;
+	color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+    /*text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);*/
+    font-weight:bold;
+    /*background-image: -webkit-linear-gradient(top,#336699 0,#333366 100%);
+    background-image: -o-linear-gradient(top,#336699 0,#333366 100%);
+    */
+    /*background-color: #334466;
+    background-image: linear-gradient(to bottom,#336688 0,#334466 100%);
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to right, #0874B1 15px, #065F91 15px);*/
+}
+
+.menu-arrow-show,.menu-arrow {
+	position: absolute;
+	border: 1px solid transparent;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.menu-arrow-show {
+	display: none;
+	top: 56px;
+	left: 0px;
+	z-index: 1000;
+	background-color: #05537A;
+	padding: 3px 5px 6px 5px;
+	filter: alpha(opacity=20);
+	-moz-opacity: 0.2;
+	-khtml-opacity: 0.2;
+	opacity: 0.2;
+}
+.menu-arrow {
+	padding: 6px 10px 8px 10px;
+}
+.menu-arrow-icon {
+	font-size: 18px;
+	color: #aaa;
+}
+.menu-arrow {
+	position: absolute;
+	top: 1px;
+	right: 2px;
+}
+.menu-arrow:hover>.menu-arrow-icon,.menu-arrow-show:hover>.menu-arrow-icon {
+	color: #fefefe;
+	font-weight: bolder;
+}
+.menu-arrow:hover {
+	background-color: #05537A;
+}
+.menu-arrow-show:hover {
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+/*
+ * Main content
+ */
+.main {
+  padding: 2px 0 0 2px;
+  margin:0;
+  background-color: #fff;
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.float-loading {
+	position : absolute;
+	z-index: 1000;
+	font-size:14px;
+}
+    

@@ -1,0 +1,111 @@
+.sidebar {
+    z-index: 1000;
+    display: block;
+    margin-top: 1px;
+    padding:0;
+    background: #065F91;
+    border-right: 1px solid #eee;
+}
+
+.content {
+  display: block;
+  overflow: hidden;
+  width: auto;
+}
+.sidebar-nav {
+   border-bottom: 1px solid #000066;
+   /*background-image: -webkit-linear-gradient(left, color-stop(#0874B1 15px), color-stop(#006699 15px));
+   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff0874B1', endColorstr='#ff006699', GradientType=1);
+   background-image: linear-gradient(to right, #0874B1 15px, #006699 15px);
+   background-repeat: repeat-x;*/
+   background-color:#006699;
+   overflow: auto;
+}
+.sidebar .fa {
+	width: 20px;
+}
+.metismenu .left-arrow, .metismenu .not-arrow {
+	display: inline-block;
+} 
+.metismenu .left-arrow {
+	width: 20px;
+}
+.metismenu .not-arrow {
+	width: 17px;
+}
+.metismenu .left-arrow {
+    float: left;
+    line-height: 1.25;
+}
+.metismenu .fa.left-arrow:before {
+  content: "\f0da";
+}
+.metismenu .active > a > .fa.left-arrow:before {
+  content: "\f0d7";
+}
+.sidebar-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebar-nav a, .sidebar-nav a:hover, .sidebar-nav a:focus, .sidebar-nav a:active {
+  outline: none;
+}
+.sidebar-nav ul li, .sidebar-nav ul a {
+  display: block;
+}
+.sidebar-nav ul a {
+  padding: 10px 5px;
+  color: #efefef;
+  border-top: 1px solid #ccc;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+  /*text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);*/
+}
+.sidebar-nav ul a:hover, .sidebar-nav ul a:focus, .sidebar-nav ul a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar-nav ul ul a>.sidebar-nav-item-icon.fa {
+	color: #ee7651;
+}
+.sidebar-nav ul ul a {
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  background-color: #aac6df;
+  color: #333;
+}
+.sidebar-nav ul ul a.menu-selected>.sidebar-nav-item-icon.fa,
+.sidebar-nav a.menu-selected,.sidebar-nav a.menu-selected>.fa,
+.sidebar-nav ul ul a:hover>.fa,.sidebar-nav ul ul a:focus>.fa, .sidebar-nav ul ul a:active>.fa,
+.sidebar-nav ul ul ul a:hover>.fa,.sidebar-nav ul ul ul a:focus>.fa, .sidebar-nav ul ul ul a:active>.fa {
+	color: #fff;
+}
+
+.sidebar-nav ul ul a:hover, .sidebar-nav ul ul a:focus, .sidebar-nav ul ul a:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.sidebar-nav ul ul a.menu-selected { 
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.sidebar-nav ul ul ul a {
+  padding-left: 25px;
+  background-color: #c8e3ff;
+  border-top: 1px solid #cfcfcf;
+}
+
+.sidebar-nav ul ul ul a:hover, .sidebar-nav ul ul ul a:focus, .sidebar-nav ul ul ul a:active {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+.sidebar-nav ul ul ul ul a {padding-left: 35px; background-color: rgba(255, 255, 255, 0.3); }
+.sidebar-nav ul ul ul ul a:hover, .sidebar-nav ul ul ul ul a:focus, .sidebar-nav ul ul ul ul a:active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.sidebar-nav ul ul ul ul ul a {padding-left: 45px; background-color: rgba(255, 255, 255, 0.4);}
+
+.sidebar-nav ul ul ul ul ul a:hover, .sidebar-nav ul ul ul ul ul a:focus, .sidebar-nav ul ul ul ul ul a:active { 
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.sidebar-nav ul ul ul ul ul ul a {padding-left: 55px; background-color: rgba(255, 255, 255, 0.5);}
+.sidebar-nav ul ul ul ul ul ul a:hover, .sidebar-nav ul ul ul ul ul ul a:focus, .sidebar-nav ul ul ul ul ul ul a:active {
+  background-color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+/**********重写bootstrap样式*****************/
+.table>thead>tr.cnoj-ui-thead>th {border-bottom: none;color:#2064b5;font-weight:700;}
+.table-wrap>.table-condensed>thead>tr>th,.table-wrap>.table-condensed>tbody>tr>th, .table-condensed > tfoot > tr > th, 
+.table-wrap>.table-condensed > thead > tr > td,.table-wrap>.table-condensed > tbody > tr > td, .table-wrap>.table-condensed > tfoot > tr > td {
+	padding: 4px;
+	font-size: 12px;
+}
+
+.table-condensed>thead>tr>th.text-left, .table-condensed>tbody>tr>th.text-left, .table-condensed>tfoot>tr>th.text-left {
+	padding-left: 10px;
+	/*font-weight: normal;*/
+}
+.table-condensed>thead>tr>th.text-center, .table-condensed>tbody>tr>th.text-center, .table-condensed>tfoot>tr>th.text-center {
+	padding-left: 10px;
+	/*font-weight: normal;*/
+}
+
+.table-condensed>thead>tr>th,.table-condensed>thead>tr>th.th-checkbox.text-center, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+	padding: 4px;
+}
+
+
+/*.table-condensed>tbody>tr>th {color:#2779aa;}*/
+.modal-header {padding: 8px 15px;}
+.pagination {margin: 10px 0;}
+.panel-footer-page .pagination {margin: 0;}
+.panel {margin-bottom: 0;}
+.panel-heading {padding: 6px 15px;}
+.panel-heading.ui-widget-header,.panel-heading.ui-state-default,.panel-heading.ui-state-active {border: none;}
+.table .ui-widget-header {border: none;border-top: 1px solid #aed0ea;}
+.table .ui-state-default {border: none;border-top: 1px solid #aed0ea;}
+.panel-footer.ui-state-default {border: none;font-weight:normal;border-top: 1px solid #aed0ea;}
+.popover {max-width: 100%;}
+.form-control {width: 95%;}
+.form-horizontal .form-control { display: inline-block;}
+.form-horizontal .has-feedback .form-control-feedback {right: 38px;}
+/*.panel-body {padding: 3px 0px;}*/
+.panel-body {padding: 5px 5px;}
+.panel-title {font-size: 14px;}
+a:hover,a:focus {text-decoration: none;}
+label {display: inline;}
+
+legend { width:auto; border-bottom:none; margin-bottom: 0;}
+.fw-normal {font-weight: normal;}
+.th-checkbox .checkbox,.td-checkbox .checkbox {margin-top: 0;margin-bottom: 0;}
+.table-theader .table-bordered {border: none;}
+.table-theader .table>thead>tr>th {border-bottom:none;}
+.table-theader-bg.ui-state-default {border: none;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.table-theader-bg .table-theader .table .ui-state-default {border: none;}
+
+.btn-sm, .btn-group-sm>.btn {padding: 4px 10px;}
+.panel-heading.ui-widget-header.panel-heading-border {border-bottom: 1px solid #aed0ea;}
+.panel-info>.panel-heading, .panel-default>.panel-heading, .ui-widget-header {color: #2064b5;}
+.fieldset-nomal fieldset {padding:3px 0 10px 10px;border: 1px solid #aaa;border-radius:4px;}
+.fieldset-nomal legend {font-weight: 700;font-size: 12px;}
+
+input[type=radio], input[type=checkbox] {margin: 3px 0 0;}
+.radio input[type=radio], .radio-inline input[type=radio], .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox] {
+	margin-left: -15px;
+}
+.form-group {margin-bottom: 10px;}
+
+/*******扩展Bootstrap样式******/
+.input-group-xs>.form-control { padding: 3px;}
+.input-group-xs>.form-control, .input-group-xs>.input-group-addon, .input-group-xs>.input-group-btn>.btn {
+  height: 26px;padding: 3px 8px;border-radius: 2px;font-size: 10px;}
